@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    background-color: DarkTurquoise;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title{
+    font-size: 26px;
+}
+
+section{
+    padding: 20px;
+    background-image: url('../assets/computador02.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #c0c0c0bb;
+    float: right;
+    padding: 20px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type=submit]{
+    color: white;
+    background-color: DarkTurquoise;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1a1a1a;
+    padding: 40px;
+    text-align: center;
+  
+}
+
+.picture{
+   width: 160px;
+} 
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+
+    
+    
+    
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .formContainer{
+        float: none;
+        margin: auto;
+    }
+}
